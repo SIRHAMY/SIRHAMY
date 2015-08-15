@@ -1,4 +1,4 @@
-angular.module('sirhamy', ['ngRoute', 'phantSaver']);
+angular.module('sirhamy', ['ngRoute', 'projects']);
 
 angular.module('sirhamy').config( function($routeProvider) {
 	$routeProvider
@@ -7,13 +7,18 @@ angular.module('sirhamy').config( function($routeProvider) {
 			 controller: 'MainCtrl',
 			 controllerAs: 'control'
 		})
+		//--------------Projects-----------------
 		.when('/phantsaver', {
-			templateUrl: 'modules/phantsaver-p5/phantsaver.html',
+			templateUrl: 'projects/phantsaver-p5/phantsaver.html',
 			controller: 'PhantSaverCtrl',
 		}) 
+		.when('/splink', {
+			templateUrl: 'projects/splink/splink.html',
+			controller: 'splinkCtrl'
+		})
 		.otherwise({
 		 		redirectTo: '/main'
 		});
 })
 
-angular.module('phantSaver', []);
+angular.module('projects', []);
