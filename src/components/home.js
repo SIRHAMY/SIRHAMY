@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import CardHolder from './card_holder';
 import Topbar from './topbar';
 
 export default class Home extends Component {
@@ -8,7 +9,7 @@ export default class Home extends Component {
             <div>
                 <Topbar />
                 HOME
-                
+                <CardHolder />
             </div>
         );
     }
