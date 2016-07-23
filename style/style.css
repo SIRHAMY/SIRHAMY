@@ -1,0 +1,43 @@
+.blue-card {
+    background-color: #a8dadc;
+}
+
+.red-card {
+    background-color: #e63946;
+}
+
+.card-grid {
+    display: flex;
+}
+
+.card-grid-card {
+    position: relative;
+    margin: 10px;
+}
+
+/* Small screens */
+@media only screen and (max-width: 480px) {
+    /* 2/row */
+    .card-grid-card {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+
+/* med screens */
+@media only screen and (max-width: 992px) {
+    /* 3/row */
+    .card-grid-card {
+        width: 33.33%;
+        padding-bottom: 33.33%;
+    }
+}
+
+/* large screens */
+@media only screen and (min-width: 993px) {
+    /* 4/row */
+    .card-grid-card {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}

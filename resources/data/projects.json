@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "name": "sirhamy-img",
+            "title": "SIRHAMY.IMG",
+            "date": "12.00.2014",
+            "link": "http://sirhamy.com",
+            "type": "design"
+        },
+        {
+            "name": "busrus",
+            "title": "BusRUs",
+            "date": "5.00.2016",
+            "link": "http://sirhamy.com",
+            "type": "code"
+        },
+        {
             "name": "phantsaver",
             "title": "Phantsaver",
             "date": "12.00.2014",
