@@ -11,8 +11,11 @@
 }
 
 .card-grid-card {
-    position: relative;
-    margin: 10px;
+    margin: 5px;
+}
+
+.card-content {
+    position: absolute;
 }
 
 /* Small screens */
