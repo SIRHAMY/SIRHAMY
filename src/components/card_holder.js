@@ -21,7 +21,6 @@ export default class CardHolder extends Component {
         
         return (
             <div>
-                This is a card holder
                 <div className="card-grid">
                     {this.renderCards()}
                 </div>
