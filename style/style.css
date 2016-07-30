@@ -47,31 +47,16 @@
 .topbar li a {
     float: right;
     padding: 10px;
-    color: #ffffff;
+    color: #ffffff;  
 }
 
 .topbar .logo {
     float: left;
 }
 
-
-/* Small screens */
-@media only screen and (max-width: 480px) {
-    /* 2/row */
-    .card-grid-card {
-        width: 49%;
-        padding-bottom: 49%;
-    }
-}
-
-/* med screens */
-@media only screen and (max-width: 992px) {
-    /* 3/row */
-    .card-grid-card {
-        width: 33%;
-        padding-bottom: 33%;
-    }
-}
+/* media queries are applied independently
+The one that appears after will overwrite
+the one that appears first */
 
 /* large screens */
 @media only screen and (min-width: 993px) {
@@ -79,5 +64,24 @@
     .card-grid-card {
         width: 24%;
         padding-bottom: 24%;
+    }
+}
+
+/* med screens */
+@media only screen and (max-width: 992px) {
+    /* 3/row */
+    .card-grid-card {
+        width: 32.33%;
+        padding-bottom: 32.33%;
+    }
+}
+
+/* Small screens */
+@media only screen and (max-width: 480px) {
+    /* 2/row */
+    .card-grid-card {
+        width: 49%;
+        padding-bottom: 49%;
+        margin: 0.5%;
     }
 }
