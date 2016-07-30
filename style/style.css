@@ -32,6 +32,7 @@
     font-weight: 700;
 }
 
+/*Card types*/
 .project-type-display {
     position: absolute;
     right: 0%;
@@ -39,6 +40,15 @@
     width: 20%;
     padding-bottom: 20%;
     background-color: #ffffff;
+    background-size: 100% 100%;
+}
+
+.code-card {
+    background-image: url("/resources/icons/code-icon.png");
+}
+
+.design-card {
+    background-image: url("/resources/icons/design-icon.png");
 }
 
 /*topbar*/
