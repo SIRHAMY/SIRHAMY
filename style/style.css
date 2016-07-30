@@ -12,6 +12,7 @@
 
 .black-card {
     background-color: #000000;
+    color: #ffffff;
 }
 
 .card-grid {
@@ -26,6 +27,7 @@
 
 .card-content {
     position: absolute;
+    padding: 15px;
 }
 
 /*topbar*/
