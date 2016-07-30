@@ -8,6 +8,9 @@ export default class card extends Component {
                     <strong>{this.props.details.title}</strong>
                     <div>Check if this stretches</div>
                 </div>
+                <div className="project-type-display">
+                
+                </div>
             </div>
         );
     }
