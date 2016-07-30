@@ -23,22 +23,27 @@
     float: left;
     position: relative;
     margin: 0.5%;
+    font-family: 'Orbitron';
 }
 
 .card-content {
     position: absolute;
     padding: 15px;
+    font-weight: 700;
 }
 
 /*topbar*/
 
 .topbar {
-    height: 40px;
+    height: 45px;
     width: 100%;
     background-color: #ffffff;
     color: #000000;
     outline: 2px solid #000000;
+    margin-top: 1%;
     margin-bottom: 0.5%;
+    font-family: 'Orbitron';
+    font-size: 15pt;
 }
 
 .topbar ul {
@@ -55,7 +60,8 @@
 .topbar li a {
     float: right;
     padding: 10px;
-    color: #000000;  
+    color: #000000;
+    font-weight: 700;  
 }
 
 .topbar .logo {
