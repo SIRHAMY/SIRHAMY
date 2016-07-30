@@ -7,10 +7,10 @@ export default class Topbar extends Component {
             <div>
                 <div className="topbar">
                     <ul>
-                        <li className="logo"><a>SIRHAMY</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Blog</a></li>
-                        <li><Link to={"/projects"}>Projects</Link></li>
+                        <li className="logo"><strong><a>SIRHAMY</a></strong></li>
+                        <li><strong><a>About</a></strong></li>
+                        <li><strong><a>Blog</a></strong></li>
+                        <li><strong><Link to={"/projects"}>Projects</Link></strong></li>
                     </ul>
                 </div>
             </div>
