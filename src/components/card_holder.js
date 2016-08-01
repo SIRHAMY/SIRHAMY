@@ -1,3 +1,4 @@
+import Moment from 'moment';
 import React, { Component } from 'react';
 
 import Card from './card';
@@ -49,6 +50,11 @@ export default class CardHolder extends Component {
             //var toAdd = ProjectData.projects.map();
             tempCards = [...tempCards, ...ProjectData.projects];
         }
+
+        tempCards.sort((a, b) => {
+
+            return new Moment(b.date) - new Moment(a.date);
+        });
 
         this.setState( { cards: tempCards } );
     }
