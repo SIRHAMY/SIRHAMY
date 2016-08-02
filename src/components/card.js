@@ -13,6 +13,9 @@ export default class card extends Component {
             case "design":
                 returnClass = "design-card";
                 break;
+            case "medium":
+                returnClass = "medium-card";
+                break;
         }
 
         return returnClass;

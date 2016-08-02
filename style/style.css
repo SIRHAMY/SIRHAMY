@@ -51,6 +51,10 @@
     background-image: url("/resources/icons/design-icon.png");
 }
 
+.medium-card {
+    background-image: url("/resources/icons/medium-icon-black.png");
+}
+
 /*topbar*/
 
 .topbar {
