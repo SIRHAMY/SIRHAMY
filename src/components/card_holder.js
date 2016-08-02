@@ -1,15 +1,19 @@
 import Moment from 'moment';
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
 import Card from './card';
 
-var ProjectData = require('../../resources/data/projects.json');
+//Import Action
+import { ingestCards } from '../actions/index';
 
-export default class CardHolder extends Component {
+//var ProjectData = require('../../resources/data/projects.json');
+
+class CardHolder extends Component {
 
 
     componentWillMount() {
-        this.cards = {};
 
         var mediumIn = false;
         var codeIn = false;
@@ -35,32 +39,15 @@ export default class CardHolder extends Component {
             "design": designIn
         }
 
-        this.ingestData(toIngest);
-
-    }
-
-    ingestData(toIngest) {
-        var tempCards = [];
-        if(toIngest.medium) {
-            //Ingest medium posts
-        }
-
-        if(toIngest.code) {
-            //Ingest code posts
-            //var toAdd = ProjectData.projects.map();
-            tempCards = [...tempCards, ...ProjectData.projects];
-        }
-
-        tempCards.sort((a, b) => {
-
-            return new Moment(b.date) - new Moment(a.date);
-        });
-
-        this.setState( { cards: tempCards } );
+        this.props.ingestCards(toIngest);
     }
     
     renderCards() {
-        return this.state.cards.map((project) => {
+        console.log(this.props.cards);
+        if(!this.props.cards || this.props.cards.length == 0) {
+            return <div>Loading</div>;
+        }
+        return this.props.cards.all.map((project) => {
             console.log("Rendering card");
             //console.log(project);
             return (
@@ -71,7 +58,7 @@ export default class CardHolder extends Component {
     
     render() {
         //Check if json data loaded
-        console.log(ProjectData);
+        //console.log(ProjectData);
         
         return (
             <div>
@@ -83,3 +70,10 @@ export default class CardHolder extends Component {
         
     }
 }
+
+//Put the state on the props
+function mapStateToProps(state) {
+    return{ cards: state.cards };
+}
+
+export default connect(mapStateToProps, {ingestCards: ingestCards})(CardHolder);
