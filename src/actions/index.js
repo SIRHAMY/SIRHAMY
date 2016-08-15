@@ -7,7 +7,7 @@ export const INGEST_CARDS = 'INGEST_CARDS';
 var ProjectData = require('../../resources/data/projects.json');
 var MediumData = require('../../resources/data/medium.json');
 
-export function ingestCards(toIngest = 10) {
+export function ingestCards(toIngest) {
     console.log("ACTION: Ingest the cards");
 
     var tempCards = [];

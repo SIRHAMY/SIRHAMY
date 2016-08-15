@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+
+import HamLink from './ham_link';
 
 export default class card extends Component {
     
@@ -23,15 +26,17 @@ export default class card extends Component {
 
     render() {
         return (
-            <div className={ `card-grid-card black-card `}>
-                <div className="card-content">
-                    <strong>{this.props.details.title}</strong>
-                    <div>Check if this stretches</div>
-                </div>
-                <div className={`project-type-display ${this.getCardTypeIcon()}`}>
+            <HamLink link={this.props.details.link}>
+                <div className={ `card-grid-card black-card `}>
+                    <div className="card-content">
+                        <strong>{this.props.details.title}</strong>
+                        <div>Check if this stretches</div>
+                    </div>
+                    <div className={`project-type-display ${this.getCardTypeIcon()}`}>
 
+                    </div>
                 </div>
-            </div>
+            </HamLink>
         );
     }
 }
