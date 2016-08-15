@@ -1,10 +1,38 @@
 {
     "projects": [
         {
-            "name": "test-medium",
-            "title": "Medium Test",
-            "date": "2016-05-03",
-            "link": "http://sirhamy.com",
+            "name": "my-spring-2016",
+            "title": "My Spring 2016",
+            "date": "2016-05-16",
+            "link": "https://medium.com/@SIRHAMY/my-spring-2016-96e2cd8fb9c5#.625pddnsx",
+            "type": "medium"
+        },
+        {
+            "name": "the-art-hustle",
+            "title": "The Art Hustle with #weloveatl's Tim Moxley",
+            "date": "2016-03-19",
+            "link": "https://medium.com/@SIRHAMY/the-art-hustle-with-weloveatl-s-tim-moxley-8f6bd3b5ee29#.6shiv4w67",
+            "type": "medium"
+        },
+        {
+            "name": "garage-hosts-sx",
+            "title": "The Garage Hosts Startup Exchange in 2016",
+            "date": "2016-01-31",
+            "link": "https://hackernoon.com/the-garage-hosts-startup-exchange-in-2016-efdda31a4394#.hwsnadorv",
+            "type": "medium"
+        },
+        {
+            "name": "my-fall-2015",
+            "title": "My Fall 2015",
+            "date": "2015-12-22",
+            "link": "https://medium.com/@SIRHAMY/my-fall-2015-4295c7023a6a#.tk393vx0l",
+            "type": "medium"
+        },
+        {
+            "name": "my-summer-2015",
+            "title": "My Summer 2015",
+            "date": "2015-08-15",
+            "link": "https://medium.com/@SIRHAMY/my-summer-2015-draft-df27737bc00c#.22ymo66c7",
             "type": "medium"
         }
     ]
