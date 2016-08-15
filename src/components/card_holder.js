@@ -15,11 +15,42 @@ class CardHolder extends Component {
 
     componentWillMount() {
 
+        //Ingest data
+
+        var toIngest = {
+            "medium": true,
+            "code": true,
+            "design": true
+        }
+
+        console.log("ComponentWillMount");
+        this.props.ingestCards(toIngest);
+    }
+    
+    renderCards() {
+        console.log(this.props.cards);
+        if(!this.props.cards || this.props.cards.length == 0) {
+            return <div>Loading</div>;
+        }
+        
+        /*
+        return this.props.cards.all.map((project) => {
+            console.log("Rendering card");
+            //console.log(project);
+            return (
+                    <Card key={project.name} details={project}/>
+            );
+        });
+        */
+
         var mediumIn = false;
         var codeIn = false;
         var designIn = false;
         
         switch(this.props.currPage) {
+            case "blog":
+                mediumIn = true;
+                break;
             case "home":
                 mediumIn = true;
                 codeIn = true;
@@ -31,23 +62,19 @@ class CardHolder extends Component {
                 break;
         }
 
-        //Ingest data
+        var cardsToDisplay = [];
 
-        var toIngest = {
-            "medium": mediumIn,
-            "code": codeIn,
-            "design": designIn
+        for(var index in this.props.cards.all) {
+            var currCard = this.props.cards.all[index];
+
+            if( ( codeIn && currCard.type == "code" ) || 
+                ( designIn && currCard.type == "design") || 
+                (mediumIn && currCard.type == "medium")) {
+                cardsToDisplay.push(currCard);
+            }
         }
 
-        this.props.ingestCards(toIngest);
-    }
-    
-    renderCards() {
-        console.log(this.props.cards);
-        if(!this.props.cards || this.props.cards.length == 0) {
-            return <div>Loading</div>;
-        }
-        return this.props.cards.all.map((project) => {
+        return cardsToDisplay.map((project) => {
             console.log("Rendering card");
             //console.log(project);
             return (

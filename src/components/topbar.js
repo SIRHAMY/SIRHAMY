@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import { ingestCards } from '../actions/index';
+
 export default class Topbar extends Component {
     render() {
         return (
