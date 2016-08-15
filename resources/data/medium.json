@@ -1,0 +1,11 @@
+{
+    "projects": [
+        {
+            "name": "test-medium",
+            "title": "Medium Test",
+            "date": "2016-05-03",
+            "link": "http://sirhamy.com",
+            "type": "medium"
+        }
+    ]
+}
