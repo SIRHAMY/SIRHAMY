@@ -32,6 +32,10 @@
     font-weight: 700;
 }
 
+ h4 {
+    margin: 0;
+}
+
 /*Card types*/
 .project-type-display {
     position: absolute;

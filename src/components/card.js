@@ -29,8 +29,7 @@ export default class card extends Component {
             <HamLink link={this.props.details.link}>
                 <div className={ `card-grid-card black-card `}>
                     <div className="card-content">
-                        <strong>{this.props.details.title}</strong>
-                        <div>Check if this stretches</div>
+                        <h4>{this.props.details.title}</h4>
                     </div>
                     <div className={`project-type-display ${this.getCardTypeIcon()}`}>
 
