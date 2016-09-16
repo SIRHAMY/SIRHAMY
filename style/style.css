@@ -1,5 +1,7 @@
 
-
+body {
+    background-color: #f5ad28;
+}
 
 /* Card Grid */
 .blue-card {
@@ -13,6 +15,8 @@
 .black-card {
     background-color: #000000;
     color: #ffffff;
+    height: 100%;
+    width: 100%;
 }
 
 .card-grid {
@@ -24,6 +28,10 @@
     position: relative;
     margin: 0.5%;
     font-family: 'Orbitron';
+}
+
+.card-grid-card-hidden {
+    position: absolute;
 }
 
 .card-content {
@@ -44,7 +52,7 @@
     bottom: 0%;
     width: 20%;
     padding-bottom: 20%;
-    background-color: #ffffff;
+    background-color: #f5ad28;
     background-size: 100% 100%;
 }
 

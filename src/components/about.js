@@ -7,7 +7,9 @@ export default class About extends Component {
         return (
             <div>
                 <Topbar />
-                About Page
+                <div>
+                    Hi, I'm Hamilton Greene. I'm a fullstack software engineer.
+                </div>
             </div>
         )
     }

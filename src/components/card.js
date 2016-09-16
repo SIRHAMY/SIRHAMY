@@ -27,13 +27,15 @@ export default class card extends Component {
     render() {
         return (
             <HamLink link={this.props.details.link}>
-                <div className={ `card-grid-card black-card `}>
-                    <div className="card-content">
-                        <h4>{this.props.details.title}</h4>
+                <div>
+                    <div className="card-grid-card black-card">
+                        <div className="card-content">
+                            <h4>{this.props.details.title}</h4>
+                        </div>
+                        <div className={`project-type-display ${this.getCardTypeIcon()}`}>
+                        </div>
                     </div>
-                    <div className={`project-type-display ${this.getCardTypeIcon()}`}>
-
-                    </div>
+                    
                 </div>
             </HamLink>
         );
