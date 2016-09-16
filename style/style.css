@@ -88,15 +88,15 @@ body {
 }
 
 .code-card {
-    background-image: url("/resources/icons/code-icon.png");
+    background-image: url("/resources/icons/code-icon.svg");
 }
 
 .design-card {
-    background-image: url("/resources/icons/design-icon.png");
+    background-image: url("/resources/icons/design-icon.svg");
 }
 
 .medium-card {
-    background-image: url("/resources/icons/medium-icon.png");
+    background-image: url("/resources/icons/medium-icon.svg");
 }
 
 /*topbar*/

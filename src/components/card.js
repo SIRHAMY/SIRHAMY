@@ -32,7 +32,7 @@ export default class card extends Component {
             }
         } else {
             return { 
-                backgroundImage: 'url(/resources/icons/' + this.props.details.type + '-icon.png)',
+                backgroundImage: 'url(/resources/icons/' + this.props.details.type + '-icon.svg)',
                 backgroundSize: '100% 100%'
              }
         }
