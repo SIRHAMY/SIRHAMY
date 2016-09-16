@@ -30,8 +30,39 @@ body {
     font-family: 'Orbitron';
 }
 
-.card-grid-card-hidden {
+.card-grid-content {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: 1s;
+}
+
+.card-grid-content:hover {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.card-grid-content-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+.card-grid-content-hidden:hover {
+    z-index: 1;
+}
+
+.card-grid-content-hidden-img {
+    position: relative;
+    height: 80%;
+    width: 80%;
 }
 
 .card-content {
@@ -65,7 +96,7 @@ body {
 }
 
 .medium-card {
-    background-image: url("/resources/icons/medium-icon-black.png");
+    background-image: url("/resources/icons/medium-icon.png");
 }
 
 /*topbar*/
