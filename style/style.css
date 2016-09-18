@@ -99,6 +99,31 @@ body {
     background-image: url("/resources/icons/medium-icon.svg");
 }
 
+/*pages*/
+
+/*pages - about*/
+ .about h2 {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Orbitron';
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.about .content {
+    font-family: 'Space Mono';
+    margin-top: 10px;
+}
+
+.about .content-section {
+    margin-top: 15px;
+}
+
 /*topbar*/
 
 .topbar {
@@ -156,6 +181,10 @@ the one that appears first */
     .card-grid-card {
         width: 32.33%;
         padding-bottom: 32.33%;
+    }
+
+    .about .content-section div {
+        padding-left: 0;
     }
 }
 

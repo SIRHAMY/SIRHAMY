@@ -10,9 +10,9 @@ export default class Topbar extends Component {
                 <div className="topbar">
                     <ul>
                         <li className="logo"><Link to={"/"}>SIRHAMY</Link></li>
-                        <li><Link to={"/about"}>About</Link></li>
-                        <li><Link to={"/cards/blogPage"}>Blog</Link></li>
-                        <li><Link to={"/cards/projects"}>Projects</Link></li>
+                        <li><Link to={"/about"}>ABOUT</Link></li>
+                        <li><Link to={"/cards/blogPage"}>BLOG</Link></li>
+                        <li><Link to={"/cards/projects"}>PROJECTS</Link></li>
                     </ul>
                 </div>
             </div>
