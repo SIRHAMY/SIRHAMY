@@ -1,6 +1,13 @@
 {
     "projects": [
         {
+            "name": "tech-blog",
+            "title": "sirhamy.com/blog",
+            "date": "2016-08-12",
+            "link": "http://sirhamy.com/blog",
+            "type": "medium"
+        },
+        {
             "name": "in-review:my-summer-2016",
             "title": "In Review: My Summer 2016",
             "date": "2016-08-12",

@@ -7,10 +7,10 @@ export default class SocialProfiles extends Component {
         return (
             <div className="social-profile-holder">
 
-                <SocialProfile image="LinkedIn" toLink="http://linkedin.com"/>
+                <SocialProfile image="linkedin" toLink="http://linkedin.com/in/hamiltongreene"/>
 
-                <SocialProfile image="LinkedIn" toLink="http://linkedin.com"/>
-                
+                <SocialProfile image="medium" toLink="http://medium.com/@SIRHAMY"/>
+
             </div>
         );
     }
