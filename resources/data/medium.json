@@ -1,6 +1,13 @@
 {
     "projects": [
         {
+            "name": "in-review:my-summer-2016",
+            "title": "In Review: My Summer 2016",
+            "date": "2016-08-12",
+            "link": "https://medium.com/@SIRHAMY/in-review-my-summer-2016-88c9c3c74ca7#.nny3btmre",
+            "type": "medium"
+        },
+        {
             "name": "my-spring-2016",
             "title": "My Spring 2016",
             "date": "2016-05-16",
