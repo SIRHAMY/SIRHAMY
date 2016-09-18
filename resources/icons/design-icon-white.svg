@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-3.07983,3.07983)">
+        <g transform="matrix(1,0,0,1,35.7998,12.4499)">
+            <path d="M23.497,184.394L23.497,159.193" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,243.691,173.347)">
+            <path d="M23.497,184.394L23.497,159.193" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,35.7998,12.4499)">
+            <path d="M23.497,159.193L114.618,68.072" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,35.7998,12.4499)">
+            <path d="M48.697,184.394L139.538,93.553" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,35.7998,12.4499)">
+            <path d="M114.618,68.072L139.538,93.553" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,48.2596,-0.00990396)">
+            <path d="M114.618,68.072L139.538,93.553" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,63.325,-15.0753)">
+            <path d="M114.618,68.072L139.538,93.553" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,41.9595,6.29022)">
+            <path d="M120.918,61.772L135.984,46.706" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,41.9595,6.29022)">
+            <path d="M145.838,87.253L160.903,72.188" style="fill:none;stroke-width:15px;stroke:white;"/>
+        </g>
+    </g>
+</svg>

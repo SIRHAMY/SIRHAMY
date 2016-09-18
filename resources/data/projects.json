@@ -1,0 +1,47 @@
+{
+    "projects": [
+        {
+            "name": "sirhamy-img",
+            "title": "@SIRHAMY.IMG",
+            "date": "2016-08-01",
+            "link": "https://www.instagram.com/sirhamy.img/",
+            "type": "design"
+        },
+        {
+            "name": "twittercabinet",
+            "title": "Twitter Cabinet",
+            "date": "2016-05-03",
+            "link": "https://github.com/songstephen/twitter-cabinet",
+            "type": "code"
+        },
+        {
+            "name": "busrus",
+            "title": "BusRUs",
+            "date": "2016-05-01",
+            "link": "https://www.linkedin.com/in/hamiltongreene",
+            "type": "code"
+        },
+        {
+            "name": "pas",
+            "title": "Personal Authentication Server (PAS)",
+            "date": "2015-09-01",
+            "link": "https://medium.com/@SIRHAMY/the-personal-authentication-server-pas-5fbb5a3140eb#.jnxeuvmkv",
+            "type": "code"
+        },
+        {
+            "name": "splink",
+            "title": "SPLINK",
+            "date": "2015-07-01",
+            "link": "http://sirhamy.com",
+            "type": "code"
+        },
+        {
+            "name": "phantsaver",
+            "title": "Phantsaver",
+            "date": "2014-12-01",
+            "link": "http://sirhamy.com",
+            "type": "code",
+            "image": "phantsaverbackground.png"
+        }
+    ]
+}
