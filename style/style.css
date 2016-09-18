@@ -219,6 +219,12 @@ the one that appears first */
     .about .content-section div {
         padding-left: 0;
     }
+
+    .social-profile {
+        width: 24%;
+        padding-bottom: 24%;
+        margin: 0.5%;
+    }
 }
 
 /* Small screens */
