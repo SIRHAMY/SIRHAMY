@@ -115,6 +115,13 @@ body {
     vertical-align: middle;
 }
 
+.about h3 {
+    font-family: 'Orbitron';
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
 .about .content {
     font-family: 'Space Mono';
     margin-top: 10px;
@@ -122,6 +129,32 @@ body {
 
 .about .content-section {
     margin-top: 15px;
+}
+
+.about .content-section .entry-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.social-profile {
+    background-color: #ffffff;
+    width: 12%;
+    padding-bottom: 12%;
+    margin: 0.25%;
+    color: #ffffff;
+    float: left;
+}
+
+.social-profile-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.social-profile-holder {
+    padding-top: 10px;
 }
 
 /*topbar*/
