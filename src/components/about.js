@@ -19,13 +19,13 @@ export default class About extends Component {
                                 <h2>HAMILTON GREENE</h2>
                             </div>
                             <div className="content">
-                                <strong>Hi, I'm Hamilton Greene and I'm a fullstack software engineer.</strong>
+                                <strong>Hi, I'm Hamilton Greene and I'm a fullstack software engineer. </strong>
 
-                                I like tackling real, hard problems with practical, elegant solutions and LOVE building software. 
+                                I like tackling real, hard problems with practical, elegant solutions and LOVE building things. 
                                 
                                 For the past two years, I've been heavily focused on web technologies, drawn to their platform versatility and nigh inherent connectivity. 
 
-                                I plan to graduate from Georgia Tech in December of 2016 with a degree in Computer Science. I'm actively seeking a full-time software engineering role to start off my post-college career.
+                                I plan to graduate from Georgia Tech in December of 2016 with a degree in Computer Science. Currently seeking full-time software engineering roles to start my post-college career.
                                 
                                 
                             </div>
