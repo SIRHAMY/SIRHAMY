@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Route, IndexRoute, Redirect } from 'react-router';
 
 import About from './components/about';
 import App from './components/app';
@@ -10,5 +10,7 @@ export default (
         <IndexRoute component={Home} />
         <Route path="/cards/:pageID" component={Home} />
         <Route path="/about" component={About} />
+        <Redirect from="/blog" to="http://sirhamy.com/blog" />
+        <Route path="*" component={Home} />
     </Route>
 );
