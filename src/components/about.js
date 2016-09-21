@@ -21,11 +21,11 @@ export default class About extends Component {
                             <div className="content">
                                 <strong>Hi, I'm Hamilton Greene and I'm a fullstack software engineer. </strong>
 
-                                I like tackling real, hard problems with practical, elegant solutions and LOVE building things. 
-                                
-                                For the past two years, I've been heavily focused on web technologies, drawn to their platform versatility and nigh inherent connectivity. 
+                                For the past two years, I've focused heavily on web technologies, drawn to their platform versatility and nigh inherent connectivity (JavaScript and Python are my current weapons of choice). I do everything from spinning up the servers and installing the DBs to creating the views on the UI.
 
-                                I plan to graduate from Georgia Tech in December of 2016 with a degree in Computer Science. Currently seeking full-time software engineering roles to start my post-college career.
+                                I like tackling real, hard problems with practical, elegant solutions and LOVE building things. In fact, this paradigm is what drew me to software in the first place. 
+
+                                I'm on track to graduate from Georgia Tech in December of 2016 with a degree in Computer Science and am actively seeking full-time software engineering roles to start my professional career.
                                 
                                 
                             </div>
