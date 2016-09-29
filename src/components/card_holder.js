@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import Card from './card';
+import HamLink from './ham_link';
 
 //Import Action
 import { ingestCards } from '../actions/index';
@@ -82,6 +83,23 @@ class CardHolder extends Component {
             );
         });
     }
+
+    getHeader() {
+        if(this.props.currPage == "blog") {
+            return(
+                <div className="no-link-style">
+                    <a href="http://blog.sirhamy.com">
+                        <div className="card-grid-header center-horizontally"
+                            style={{fontSize: 15}}>
+                            <h4>Visit my Blog</h4>
+                        </div>
+                    </a>
+                </div>
+            )
+        }
+
+        return '';
+    }
     
     render() {
         //Check if json data loaded
@@ -89,6 +107,7 @@ class CardHolder extends Component {
         
         return (
             <div>
+                {this.getHeader()}
                 <div className="card-grid">
                     {this.renderCards()}
                 </div>
