@@ -12,4 +12,8 @@
 
 # Support
 
-If you like what you see, you can support the creation of more: https://www.buymeacoffee.com/hamylabs
+[HAMEMBERs](https://www.buymeacoffee.com/hamylabs) support the projects, experiments, and tutorials I create. In return, they get:
+
+* Source code access
+* Disounts on courses + products
+* More projects, experiments, and tutorials
