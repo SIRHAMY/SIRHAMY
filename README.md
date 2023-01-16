@@ -12,7 +12,9 @@
 
 # Support
 
-[HAMEMBERs](https://www.buymeacoffee.com/hamylabs) support the projects, experiments, and tutorials I create. In return, they get:
+Support the projects, experiments, and tutorials I create - [become a HAMINION](https://hamy.xyz/labs/haminions).
+
+HAMINIONs get:
 
 * Source code access
 * Disounts on courses + products
