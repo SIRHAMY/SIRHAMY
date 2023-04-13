@@ -9,6 +9,7 @@
 # Featured Projects
 
 * [CloudSeed](https://cloudseed.xyz) - F# / SvelteKit Boilerplate (this is how I launch projects quickly)
+* [HAMY.ART](https://www.instagram.com/hamy.art/) - Creative Technology
 
 # Support
 
