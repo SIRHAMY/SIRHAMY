@@ -10,6 +10,8 @@
 * [CloudSeed](https://cloudseed.xyz) - F# / SvelteKit Boilerplate (this is how I launch projects quickly)
 * [HAMY.ART](https://www.instagram.com/hamy.art/) - Creative Technology
 
+See All Projects: https://hamy.xyz/projects
+
 # Support
 
 Support the projects, experiments, and tutorials I create - [become a HAMINION](https://hamy.xyz/labs/haminions).
