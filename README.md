@@ -8,6 +8,7 @@
 # Featured Projects
 
 * [CloudSeed](https://cloudseed.xyz) - F# Boilerplate (this is how I launch web projects quickly)
+* [One Million Checkboxes](https://onemillioncheckboxes.xyz/) - You check boxes, everyone sees it
 * [HAMY.ART](https://www.instagram.com/hamy.art/) - Creative Technology
 
 See All Projects: https://hamy.xyz/projects
