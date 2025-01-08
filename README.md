@@ -15,10 +15,10 @@ See All Projects: https://hamy.xyz/projects
 
 # Support
 
-Support the projects, experiments, and tutorials I create - [become a HAMINION](https://hamy.xyz/labs/haminions).
+Support me so I can create more projects, experiments, and tutorials - [become a HAMINION](https://hamy.xyz/labs/haminions).
 
 HAMINIONs get:
 
 * Source code access ([hamy-labs-code-examples repo](https://github.com/HAMY-LABS/hamy-labs-code-examples))
 * Disounts on courses + products
-* Support me so I can make more projects, experiments, and tutorials
+* Priority input on content / projects to cover
