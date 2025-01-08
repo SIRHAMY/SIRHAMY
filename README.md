@@ -21,4 +21,4 @@ HAMINIONs get:
 
 * Source code access ([hamy-labs-code-examples repo](https://github.com/HAMY-LABS/hamy-labs-code-examples))
 * Disounts on courses + products
-* More projects, experiments, and tutorials
+* Support me so I can make more projects, experiments, and tutorials
